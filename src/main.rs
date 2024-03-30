@@ -9,7 +9,7 @@ struct User {
 fn main() {
     println!("Hello, world!");
 
-    let user1 = User {
+    let mut user1 = User {
         email: String::from("zioon.z@icloud.com"),
         name: String::from("Ziloong"),
         age: 18,
